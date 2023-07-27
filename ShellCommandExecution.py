@@ -5,9 +5,9 @@ os.system("echo Hello from the python import OS module")
 
 
 import os
-os.system("ping 8.8.8.8")
+os.system("ping -c 4 8.8.8.8")
  
 
 
-comment test
+
 
