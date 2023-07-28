@@ -11,7 +11,7 @@ import time
 print("Installing pip Please Wait...")
 time.sleep(2)
 import os
-os.system("sudo apt install python3-pip")
+os.system("sudo apt install python3-pip -y")
 
 time.sleep(4)
 
