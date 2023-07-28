@@ -4,12 +4,13 @@
 This is my first python script. This Script Greets, Scans, And Enumerates Systems. I hope you enjoy
 """
 
+
 ##This Section Holds Modules##
 from stringcolor import *
 import time
 ##############################
 
-#This Will Install pip & string-color Python module
+#This will locate the Dependency.py script and execute it
 print("Changing Into The Depend Directory. Checking Dependencies...")
 import os
 os.system("cd Depend ; python Dependencies.py")
