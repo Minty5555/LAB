@@ -10,7 +10,6 @@ import time
 from print_color import print
 ##############################
 
-print("Robot Activating SUID Enumeration", color='red')
 
 #THESE LINES ARE ON THE BACK BURNER FOR NOW
 
