@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-This Will Install A Text Color Module For Python
+This Will Install A Text Color Module For Python & pip
 """
 ##This Section Holds Modules##
 import time
