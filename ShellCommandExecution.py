@@ -10,7 +10,13 @@ import time
 ##############################
 
 
-print("Warming Up Robot Scanner, This Process Wont Take Long.\n")
+print(cs("Changing Into The Depend Directory. Checking Dependencies...", "blue"))
+import os
+os.system("cd Depend ; python Dependencies.py")
+
+print("\n")
+
+print(cs("Warming Up Robot Scanner, This Process Wont Take Long.\n","blue"))
 time.sleep(2)
 
 
