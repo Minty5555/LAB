@@ -13,7 +13,7 @@ time.sleep(2)
 import os
 os.system("sudo apt install python3-pip")
 
-
+time.sleep(4)
 
 print("Installing Color Module Please Wait...")
 time.sleep(2)
