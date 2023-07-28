@@ -10,7 +10,7 @@ import time
 ##############################
 
 
-print(cs("Changing Into The Depend Directory. Checking Dependencies...", "blue"))
+print("Changing Into The Depend Directory. Checking Dependencies...")
 import os
 os.system("cd Depend ; python Dependencies.py")
 
