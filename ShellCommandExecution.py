@@ -8,6 +8,7 @@ This is my first python script. This Script Greets, Scans, And Enumerates System
 ##This Section Holds Modules##
 import time
 from print_color import print
+import os
 ##############################
 
 
@@ -26,7 +27,6 @@ time.sleep(2)
 
 #This will perform a network scan of all live hosts
 print("Robot Initialized Network Scanner", color='red')
-import os
 os.system("ping -c 4 8.8.8.8")
 
 
@@ -35,7 +35,6 @@ print (" \n")
 
 #This will find all files starting from the root directory that have the SUID bit set
 print("Robot Activating SUID Enumeration", color='red')
-import os
 os.system("find / -type f -perm -u+s 2>/dev/null ")
 
 
