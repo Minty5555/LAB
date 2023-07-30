@@ -6,8 +6,9 @@ This is my first python script. This Script Greets, Scans, And Enumerates System
 
 ##This Section Holds Modules##
 import time
-from print_color import print
 import os
+from print_color import print
+
 ##############################
 
 
@@ -22,7 +23,6 @@ import os
 
 print("Warming Up Robot Scanner, This Process Wont Take Long.\n", color='blue')
 time.sleep(2)
-
 
 #This will perform a network scan of all live hosts
 print("Robot Initialized Network Scanner", color='red')
