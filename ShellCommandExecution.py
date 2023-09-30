@@ -5,7 +5,6 @@ This is my first python script. This Script Greets, Scans, And Enumerates System
 """
 
 
-
 ##This Section Holds Modules##
 import time
 import os
